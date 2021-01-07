@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "0.14.4",
-  "serial": 34,
+  "serial": 33,
   "lineage": "a7ab995d-1f9c-8267-6202-98f1e2636fbe",
   "outputs": {
     "IP-Address": {
@@ -181,6 +181,27 @@
             "number": true,
             "override_special": null,
             "result": "0p79",
+            "special": false,
+            "upper": false
+          },
+          "sensitive_attributes": [],
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        },
+        {
+          "index_key": 1,
+          "schema_version": 1,
+          "attributes": {
+            "id": "v99v",
+            "keepers": null,
+            "length": 4,
+            "lower": true,
+            "min_lower": 0,
+            "min_numeric": 0,
+            "min_special": 0,
+            "min_upper": 0,
+            "number": true,
+            "override_special": null,
+            "result": "v99v",
             "special": false,
             "upper": false
           },

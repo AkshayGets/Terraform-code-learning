@@ -33,10 +33,10 @@ resource "docker_container" "nodered_contianer" {
   }
 }
 
-resource "docker_container" "nodered_contianer2" {
-  name  = "nodered-ucvp"
-  image = docker_image.nodered_image.latest
-  }
+# resource "docker_container" "nodered_contianer2" {
+#   name  = "nodered-ucvp"
+#   image = docker_image.nodered_image.latest
+#   }
 
 # output "IP-Address1" {
 #   value       = join(":", [docker_container.nodered_contianer[0].ip_address, docker_container.nodered_contianer[0].ports[0].external])
