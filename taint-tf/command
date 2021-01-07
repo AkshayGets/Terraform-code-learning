@@ -1,0 +1,9 @@
+terraform state list 
+
+docker_container.nodered_contianer[0]
+docker_image.nodered_image
+random_string.random[0]
+
+
+terraform taint random_string.random[0]
+terraform untaint random_string.random[0]
